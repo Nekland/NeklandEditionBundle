@@ -1,0 +1,18 @@
+{
+    "name":        "nekland/nekland-edition-bundle",
+    "license":     "MIT",
+    "type":        "bundle",
+    "description": "The \"Symfony Nekland Edition\" bundle",
+    "autoload":     {
+        "psr-4": { "Nekland\\Bundle\\NeklandEditionBundle\\": "" }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "bin": ["bin/console"],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
